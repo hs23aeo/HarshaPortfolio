@@ -1,12 +1,12 @@
 {
   "private": true,
-  "name": "HarshaPortfolio",
+  "name": "Harsha-Portfolio",
   "version": "0.1.0",
-  "homepage": "https://hs23aeo.github.io/Harsha-Portfolio",
+  "homepage": "https://hs23aeo.github.io/Harsha-Portfolio/home",
   "scripts": {
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "CI=false react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "cp public/404.html build/404.html && gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test"
