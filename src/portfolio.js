@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Harsha R Sharma | GRC & Cyber Security Analyst",
   description:
-    "GRC and Technology analyst with 1.5 years at Deloitte USI (Big 4) in ISO 27001/SOC 2 compliance, risk assessments, and process automation. MSc Cyber Security with Advanced Research — Commendation (University of Hertfordshire, 2026). Research focus on EU AI Act and NIST AI RMF.",
+    "Cyber security GRC analyst with two and a half years across security governance and compliance, including a year and a half at Deloitte USI on ISO 27001, SOC 2 and HIPAA client engagements. MSc Cyber Security with Advanced Research, Commendation, University of Hertfordshire, 2026. Dissertation on AI governance under the EU AI Act and the NIST AI Risk Management Framework.",
   og: {
     title: "Harsha R Sharma | GRC & Cyber Security Analyst",
     type: "website",
@@ -21,11 +21,11 @@ const seo = {
 const greeting = {
   title: "Harsha R Sharma",
   logo_name: "HarshaRSharma",
-  nickname: "The Solver",
+  nickname: "Cyber Security GRC Analyst",
   subTitle:
-    "GRC and Technology analyst with 1.5 years at Deloitte USI (Big 4) in ISO 27001/SOC 2 compliance, risk assessments, and process automation. Hands-on experience with Azure Logic Apps, Microsoft Power Platform, ServiceNow, and Python. MSc Cyber Security with Advanced Research — Commendation (University of Hertfordshire, 2026). Research focus on EU AI Act and NIST AI RMF. Open to contract roles in GRC, technology consulting, and Microsoft technology stack.",
+    "Cyber security GRC analyst with two and a half years across security governance and compliance: a year and a half at Deloitte USI on regulated client engagements and a year in a compliance role before that. At Deloitte the day to day was operating an ISMS, with ISO 27001 and SOC 2 evidence, control testing, risk register upkeep and findings tracked to closure at 98 to 99%. I assessed suppliers before and during contract and answered client security questionnaires with 94 to 95% accepted first time. MSc Cyber Security with Advanced Research, completed with Commendation at the University of Hertfordshire in February 2026, with a dissertation on AI governance under the EU AI Act and the NIST AI Risk Management Framework. Open to permanent and contract roles in GRC, third-party risk and AI governance.",
   resumeLink:
-    "https://docs.google.com/document/d/1kPn8mi4B39n58hPyHwWy8wf0LiAk1NyU/edit?usp=drive_link&ouid=101629678604820420535&rtpof=true&sd=true",
+    "https://docs.google.com/document/d/1NpzQPnZAdbB_2bKrjowTysH-lksnqFQP/edit?usp=sharing&ouid=101629678604820420535&rtpof=true&sd=true",
   portfolio_repository: "https://github.com/hs23aeo",
   githubProfile: "https://github.com/hs23aeo",
 };
@@ -57,10 +57,10 @@ const skills = {
       title: "GRC & Compliance",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ ISO 27001 and SOC 2 compliance — risk assessments, control frameworks, and audit support.",
-        "⚡ Third-party risk management and vendor due diligence.",
-        "⚡ Translating compliance requirements into technical specifications for engineering teams.",
-        "⚡ AI governance research — EU AI Act, NIST AI RMF, and ISO 42001 frameworks.",
+        "⚡ ISO 27001 and SOC 2 compliance: ISMS operation, evidence collection, control testing, risk register upkeep and audit support across 5 major and around 10 minor audits.",
+        "⚡ Third-party risk management: supplier due diligence before onboarding and during contract, reviewing questionnaires, SOC 2 reports, ISO 27001 certificates and penetration test reports.",
+        "⚡ Reviewing platform designs against control requirements before build and writing recommendations engineering teams can act on.",
+        "⚡ AI governance research: EU AI Act and NIST AI Risk Management Framework (MSc dissertation).",
       ],
       softwareSkills: [
         {
@@ -74,20 +74,20 @@ const skills = {
           style: { color: "#0089D6" },
         },
         {
-          skillName: "ServiceNow",
-          fontAwesomeClassname: "simple-icons:servicenow",
-          style: { color: "#62D84E" },
+          skillName: "JIRA",
+          fontAwesomeClassname: "simple-icons:jira",
+          style: { color: "#0052CC" },
         },
       ],
     },
     {
-      title: "Security Automation & Microsoft Technology",
+      title: "Automation, Testing & Microsoft Technology",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Process automation using Azure Logic Apps and Microsoft Power Platform.",
-        "⚡ AI-powered threat detection using NLP (BERT, RoBERTa) and graph-based ML.",
-        "⚡ DLP architecture design across M365 environments.",
-        "⚡ Vulnerability scanning and penetration testing — CTF and HackTheBox.",
+        "⚡ Automating repetitive compliance checks with Python, Selenium and Azure Logic Apps.",
+        "⚡ Microsoft Purview, Azure and Microsoft 365 on regulated client engagements, including a HIPAA environment.",
+        "⚡ Access reviews and recertification across business systems: role definitions, provisioning and periodic recertification.",
+        "⚡ Test case design, defect logging and performance testing in Azure DevOps and JIRA on Dynamics 365.",
       ],
       softwareSkills: [
         {
@@ -124,26 +124,26 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "University of Hertfordshire, London",
-      subtitle: "MSc in Cyber Security with Advanced Research",
+      title: "University of Hertfordshire, UK",
+      subtitle: "MSc Cyber Security with Advanced Research (Commendation)",
       logo_path: "herts_logo.webp",
       alt_name: "University of Hertfordshire",
-      duration: "Jan 2024 - Feb 2026 ",
+      duration: "Jan 2024 - Feb 2026",
       descriptions: [
-        "⚡ Focus on Digital Forensics, Penetration Testing, and Cyber Operations.",
-        "⚡ Dissertation: AI-Powered Threat Detection using NLP and graph-based ML models.",
+        "⚡ Modules included risk management, information security management (ISO 27001), data protection, and applied machine learning with hands-on Python.",
+        "⚡ Dissertation: AI governance under the EU AI Act and the NIST AI Risk Management Framework, examining how security and regulatory controls apply to AI systems.",
       ],
       website_link: "https://www.herts.ac.uk/",
     },
     {
-      title: "SNDT Mumbai University, India",
-      subtitle: "Bachelor's in Computer Application",
+      title: "SNDT Women's University, Mumbai, India",
+      subtitle: "BCA, Bachelor of Computer Applications",
       logo_path: "sndt_logo.png",
       alt_name: "SNDT University",
       duration: "June 2019 - June 2022",
       descriptions: [
-        "⚡ Core Modules: C, C++, and JAVA.",
-        "⚡ Digitized 800+ historical books to launch a virtual library.",
+        "⚡ Core modules: C, C++ and Java.",
+        "⚡ Programming, databases, networking and operating systems fundamentals, the technical base the security work sits on.",
       ],
       website_link: "https://sndt.ac.in/",
     },
@@ -175,7 +175,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "1.5 years at Deloitte USI (Big 4) in GRC, ISO 27001/SOC 2 compliance, risk assessments, and process automation. UK-based experience in system training and agile delivery.",
+    "Two and a half years across security governance and compliance: a year and a half at Deloitte USI on regulated client engagements covering ISO 27001, SOC 2 and HIPAA, and a year in a compliance role before that. MSc Cyber Security completed with Commendation in February 2026, with part-time work alongside full-time study.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -183,25 +183,25 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "System Trainer",
+          title: "Customer Service Associate, promoted to Front of House Team Lead (part-time)",
           company: "Pret A Manger",
           company_url: "https://www.pret.co.uk/",
           logo_path: "pret.jpg",
-          duration: "March 2024 – December 2025",
+          duration: "Feb 2024 – Dec 2025",
           location: "Stevenage, UK",
           description:
-            "Delivered onboarding and system training to new staff on internal platforms. Developed training materials and guides to support adoption. Supported continuous improvement of training delivery.",
+            "Part-time work alongside full-time MSc study. Promoted to lead front of house within six months. Led the team through five NSF audits with a 100% pass record, averaged 95%+ across 20+ mystery shopper visits, ran daily food safety and allergen checks, and trained new starters.",
           color: "#8B0000",
         },
         {
-          title: "Associate Analyst",
+          title: "Cyber Security GRC Associate Analyst",
           company: "Deloitte USI",
           company_url: "https://www2.deloitte.com/",
           logo_path: "deloitte_logo.png",
           duration: "Aug 2022 – Jan 2024",
           location: "Hyderabad, India",
           description:
-            "Primary GRC liaison for technology change reviews. Ran Security Impact Assessments to identify risks before deployment. Maintained ISO 27001 and SOC 2 compliance. Built automated workflows in Azure Logic Apps saving 10+ manual hours per week. Produced MI reports for senior stakeholders.",
+            "Three client engagements across cloud, Microsoft 365 and client-hosted platforms, usually two at once. Operated the ISMS day to day: ISO 27001 and SOC 2 evidence, control testing, risk register upkeep and remediation tracked to closure at 98 to 99%, across 5 major and around 10 minor audits. Reviewed new platform designs against control requirements before build and ran the gap analysis. Assessed suppliers before onboarding and during contract, and answered client security questionnaires with 94 to 95% accepted first time. Automated repetitive checks with Python, Selenium and Azure Logic Apps.",
           color: "#86BC25",
         },
       ],
@@ -211,14 +211,14 @@ const experience = {
       work: false,
       experiences: [
         {
-          title: "Technical Trainee",
+          title: "Compliance Intern",
           company: "Global Education Pvt Ltd",
           company_url: "",
           logo_path: "global_edu_logo.png",
-          duration: "June 2021 – July 2022",
+          duration: "June 2021 – June 2022",
           location: "Nagpur, India",
           description:
-            "Managed security of 2,000+ sensitive student records. Performed vulnerability testing using Java and Python, identifying and remediating critical access point flaws.",
+            "Compliance work involving sensitive student personal data, including access controls and record handling.",
           color: "#000000",
         },
       ],
@@ -229,7 +229,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "Three projects — an AI threat detection pipeline built for my MSc dissertation, a DLP architecture design, and a collaborative vulnerability scanner with a live demo.",
+    "Work from my MSc and independent projects, including the dissertation research on AI governance under the EU AI Act and the NIST AI Risk Management Framework.",
   avatar_image_path: "projects_image_female.svg",
 };
 
@@ -248,7 +248,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "PROFILKE_.jpg",
     description:
-      "Available for contract and permanent GRC, IT Risk, and Cyber Security roles in London. Open to Microsoft technology stack and consulting opportunities.",
+      "Available immediately for permanent, contract and fixed-term GRC, IT risk, third-party risk and cyber security roles in London, the Stevenage corridor or remote. Full UK right to work.",
   },
   blogSection: {
     title: "Blogs",
