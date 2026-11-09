@@ -23,7 +23,7 @@ export default class Main extends Component {
 
   render() {
     return (
-      <BrowserRouter basename="/Ritik-Portfolio">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route
             path="/"

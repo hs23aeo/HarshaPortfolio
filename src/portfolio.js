@@ -65,7 +65,7 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Python",
-          fontAwesomeClassname: "logos-python",
+          fontAwesomeClassname: "logos-python",s
           style: { backgroundColor: "transparent" },
         },
         {
